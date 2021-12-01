@@ -6,6 +6,7 @@ bool numeriprimi (int n, int h){
     } else if(n==1){
         return true;
     }else if(h==1){
+       
         return true;
     }else if(n%h==0){
         return false;
